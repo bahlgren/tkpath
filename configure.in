@@ -193,7 +193,7 @@ else
     else
 	TEA_ADD_SOURCES([unix/tkUnixCairoPath.c])
 	TEA_ADD_INCLUDES([`freetype-config --cflags`])
-	TEA_ADD_INCLUDES([-I/usr/include/cairo])
+	TEA_ADD_INCLUDES([-I/usr/local/include/cairo])
 	TEA_ADD_LIBS([-lcairo])
     fi
 fi
